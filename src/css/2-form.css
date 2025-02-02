@@ -1,0 +1,46 @@
+.feedback-form{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  width: 360px;
+  height: 192px;
+}
+
+label{
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+}
+
+button{
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 95px;
+  height: 40px;
+  margin-top:  10px;
+  background: #4e75ff;
+  border: none;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+button:hover, button:focus{
+  background: #6c8cff;
+}
+
+div{
+  padding: 24px;
+}
+
+textarea{
+  height: 80px;
+
+}
